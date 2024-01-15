@@ -97,14 +97,4 @@ class _AddTodoDialogWidgetState extends State<AddTodoDialogWidget> {
     sharedPreferences.setStringList("list",list);
     loadData();
   }
-
-  // void showToast() {  
-  //   Fluttertoast.showToast(  
-  //       msg: 'Data  Saved Sucessfully',  
-  //       toastLength: Toast.LENGTH_SHORT,  
-  //       gravity: ToastGravity.BOTTOM,    
-  //       backgroundColor: Colors.grey,  
-  //       textColor: Colors.black  
-  //   );  
-  // }  
 }
